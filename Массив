@@ -1,16 +1,25 @@
-
-
-
-	int main()
+int main ()
 {
-	int n;
-	cout<<"Введите размерность массива";
-	cin>>n;
-	int mas [n];
-	cout << "Введите элементы массива";
-	for (int i =0; i<n; i++)
-		cin<<mas[i];
+	void sort(int n, int *mas)
+	{
+		for(int i=0; i<n-1; i++)
+			for (int j=i; j<n; j++)
+				if (mas[i]<mas[j])
+					swap(mas[i], mas[j]);
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
