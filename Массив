@@ -6,6 +6,9 @@ int main ()
 			for (int j=i; j<n; j++)
 				if (mas[i]<mas[j])
 					swap(mas[i], mas[j]);
+		cout << "Вывод массива отсортированного"; 
+for (int i =0; i<n; i++)
+	cout <<mas[i]<<'\t';
 	}
 }
 
